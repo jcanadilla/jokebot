@@ -1,0 +1,10 @@
+{
+	"extends": "@tsconfig/node14/tsconfig.json",
+	"compilerOptions": {
+		"noImplicitAny": false,
+		"lib": ["dom", "ES2015"],
+		"esModuleInterop": true,
+		"outDir": "build",
+		"sourceMap": true
+	}
+}
